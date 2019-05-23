@@ -1,24 +1,37 @@
 REST API test for Assurity Consulting Limited
+
 API:
+
 https://api.tmsandbox.co.nz/v1/Categories/6327/Details.json?catalogue=false
+
 Test Acceptance Criteria:
+
 •	Name = "Carbon credits"
+
 •	CanRelist = true
+
 •	The Promotions element with Name = "Gallery" has a Description that contains the text "2x larger image"
+
 Prerequisites:
+
 •	Eclipse should be installed
 •	Configure TestNG plugin and Maven in Eclipse
 •	Export the project from GitHub to local machine
 •	JDK 1.8 or higher should be installed
 •	Import the Project in Eclipse
+
 Framework Structure:
+
 •	Maven – Used for building project (framework)
 •	TestNG – Test case execution
 •	Log4J – For generating proper logs
 •	Extent Report – For generating test execution report in html format
 •	Rest Assured – For API automation
+
 How to run the test:
+
 Right click on TestNG.xml or pom.xml and click Run As  TestNG Suite
+
 Output Example:
 
 [RemoteTestNG] detected TestNG version 6.14.3
@@ -50,5 +63,6 @@ Total tests run: 6, Failures: 0, Skips: 0
 ===============================================
 
 How to see the HTML Test Report:
+
 Go to test-output folder and open Test-Report-2019.05.23*TimeStamp*
 
