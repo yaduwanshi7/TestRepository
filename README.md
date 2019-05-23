@@ -65,4 +65,3 @@ Total tests run: 6, Failures: 0, Skips: 0
 How to see the HTML Test Report:
 
 Go to test-output folder and open Test-Report-2019.05.23*TimeStamp*
-
