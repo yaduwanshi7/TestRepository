@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [REST API Suite]">
+  <listeners>
+    <listener class-name="com.test.rest.utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="User API Test(failed)">
+    <classes>
+      <class name="com.test.rest.testCases.TC001_Get_Request">
+        <methods>
+          <include name="checkStatusLine"/>
+          <include name="checkStatusCode"/>
+          <include name="validateCanRelist"/>
+          <include name="getUserDetails"/>
+          <include name="checkResponseBody"/>
+          <include name="setup"/>
+          <include name="validatePromotion"/>
+          <include name="validateName"/>
+        </methods>
+      </class> <!-- com.test.rest.testCases.TC001_Get_Request -->
+    </classes>
+  </test> <!-- User API Test(failed) -->
+</suite> <!-- Failed suite [REST API Suite] -->
