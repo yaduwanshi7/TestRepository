@@ -1,4 +1,4 @@
-REST API test for Assurity Consulting Limited
+                                    REST API test for Assurity Consulting Limited
 
 API:
 
@@ -27,6 +27,8 @@ Framework Structure:
 •	Log4J – For generating proper logs
 •	Extent Report – For generating test execution report in html format
 •	Rest Assured – For API automation
+•	Json
+
 
 How to run the test:
 
